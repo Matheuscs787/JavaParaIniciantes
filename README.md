@@ -25,7 +25,8 @@ O primeiro capítulo do livro trata sobre os **fundamentos da linguagem**, poré
 > * Argumentos em tamanho variável (varargs)
 > * Importação estática
 > * Anotações
-<br>&nbsp;&nbsp;&nbsp;&nbsp;Isso não é uma lista de pequenos ajustes, cada item representa um grande impacto positivo à linguagem Java. Alguns introduziram novos elementos de sintaxe, outros alteraram a semântica da linguagem e as anotações adicionaram uma dimensão inteiramente nova à programação. A importância foi tão grande que o número da versão que naturalmente seria 1.5, não foi chamada assim pois não parecia expressar a magnitude da mudança. A Sun resolveu chamar a versão de Java 5, para deixar claro que era um evento maior que estava ocorrendo, sendo assim, ela foi nomeada de J2SE 5 e o kit de desenvolvedor foi chamado de JDK 5.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Isso não é uma lista de pequenos ajustes, cada item representa um grande impacto positivo à linguagem Java. Alguns introduziram novos elementos de sintaxe, outros alteraram a semântica da linguagem e as anotações adicionaram uma dimensão inteiramente nova à programação. A importância foi tão grande que o número da versão que naturalmente seria 1.5, não foi chamada assim pois não parecia expressar a magnitude da mudança. A Sun resolveu chamar a versão de Java 5, para deixar claro que era um evento maior que estava ocorrendo, sendo assim, ela foi nomeada de J2SE 5 e o kit de desenvolvedor foi chamado de JDK 5.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;A próxima versão do Java foi chamada de Java SE 6, novamente a Sun resolveu mudar o nome da plataforma. Dentre as alterações, o "2" foi removido e a plataforma passou a ter o nome Java SE (Standard Edition). Dentre as alterações, tiveram aperfeiçoamento das bibliotecas de APIs, novos pacotes, melhores no tempo de execução. O Java SE 6 serviu para solidificar ainda mais os avanços feitos pelo J2SE 5.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;A próxima versão, que foi chamada de Java SE 7 e o JDK 7 foi a primeira grande versão pós aquisição da Sun Microsystems pela Oracle. Nessa versão foram incluidos muitos recursos novos, inclusive acréscimos significativos à linguagem e às bibliotecas de API.
 Parte dos recursos mais importantes, foram desenvolvidos pelo Project Coin, que tinha como objetivo de identificar várias pequenas alterações feitas na linguagem que seriam incorporadas ao JDK 7, como exemplo:
@@ -35,4 +36,5 @@ Parte dos recursos mais importantes, foram desenvolvidos pelo Project Coin, que 
 > * Instrução **try** expandida, chamada try-with-resources, que dá suporte ao gerenciamento automático de recursos.
 > * Inferência de tipos (via operador losango <>) na construção de uma instância genérica.
 > * Tratamento de exceções melhorado, em que duas ou mais exceções podem ser capturadas pela mesma instrução catch (multicatch), e melhor verificação de tipos para exceções que são relançadas.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;Apesar de ter sido consideradas pequenas alterações na linguagem, seus benefícios foram grandes, principalmente o try-with-resources afeta a maneira como uma grande quantidade de códigos é escrita.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Apesar de ter sido consideradas pequenas alterações na linguagem, seus benefícios foram grandes, principalmente o try-with-resources afeta a maneira como uma grande quantidade de códigos é escrita.
